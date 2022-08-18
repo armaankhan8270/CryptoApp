@@ -139,11 +139,11 @@ body{
   -o-border-radius: 300px;
   width: 100%;
   background: transparent;
-    border: none;
-    color: white;
+    /* border: none; */
+    /* color: white; */
     autofocus: true;
 }
 .bod{
- border:2px solid white;
+ /* border:2px solid white; */
  
 }

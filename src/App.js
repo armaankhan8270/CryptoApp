@@ -29,7 +29,7 @@ useEffect(()=>{
     <h1 className="text-white display-4 fw-bolder bg-dark rounded-pill">Crypto Sector</h1>
     </div>
     <div className="my-5 aa">
-  <input  value={searchword} onChange={(e)=>setsearchword(e.target.value)} type="text" className=" col-3 text-light fs-3 ies my-1 py-1" placeholder="Serach currency" aria-label="Serach" aria-describedby="basic-addon2"/>
+  <input  value={searchword} onChange={(e)=>setsearchword(e.target.value)} type="text" className=" col-3 fs-3 ies my-1 py-1 bg-transparent obrder-b-2 hover:border-black outline-none focus:outline-none text-black " placeholder="Serach currency" aria-label="Serach" aria-describedby="basic-addon2"/>
   {/* <button onClick={fileter} className="fs-2 fs-bold" id="basic-addon2">Search</button> */}
 </div>
     <div>
@@ -43,7 +43,7 @@ useEffect(()=>{
         return(
           <div key={id} className="col-md-3     col-sm-6 aam col-xs-12 ">
             <div className="card bor bod  ">
-              <div className="card-body armaan   ">
+              <div className="card-body armaan  hover:bg-white hover:shadow-lg ">
                 
                 <img  src={coin.image} className="card-img-top img" alt="..."/>
                 <h5 className=" text-li txxt32 ght fs-1">{coin.name}</h5>
